@@ -16,7 +16,9 @@ html {
 
 }
 
-.img1 {
+.img1,
+.img2,
+.img3 {
     position: relative;
     opacity: 0.7;
     background-position: center;
@@ -62,6 +64,20 @@ html {
 }
 
 .img2 {
-    background-image: url('./images/image2.jpg');
-    height: 25rem;
+    background-image: url('/images/image2.jpg');
+    min-height: 25rem;
+}
+
+.pxtext .border.trans {
+    background-color: transparent;
+}
+
+.section.section-darker {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.img3 {
+    background-image: url('/images/image3.jpg');
+    min-height: 25rem;
 }
